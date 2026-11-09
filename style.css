@@ -1,0 +1,79 @@
+/* Main page styling */
+body {
+    background-color: #f5f0e8;
+    font-family: Arial, sans-serif;
+}
+
+/* Website heading */
+.header {
+    text-align: center;
+}
+
+/* Main container */
+.main-container {
+    width: 90%;
+    margin: 20px auto;
+    background-color: #d8c3b5;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Container holding three sections */
+.sections {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* Pink navigation section */
+.navigation {
+    background-color: #f2d5dc;
+    width: 30%;
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Green middle section */
+.about {
+    background-color: #b7c9b0;
+    width: 30%;
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Beige right section */
+.goals {
+    background-color: #e8d8c3;
+    width: 30%;
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Contact information */
+.contact {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Unvisited links */
+a:link {
+    color: #5c4765;
+}
+
+/* Visited links */
+a:visited {
+    color: #704b78;
+}
+
+/* Mouse hovering over links */
+a:hover {
+    color: #b04f79;
+}
+
+/* Active links */
+a:active {
+    color: #c0392b;
+}
