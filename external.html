@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Professional Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body> 
+
+    <!-- Website Title -->
+    <div class="header">
+        <h1>My Professional Portfolio</h1>
+        <p>Welcome to my personal website!</p>
+    </div>
+<!-- Main Container -->
+<div class="main-container">
+
+    <!-- Container for Three Sections -->
+    <div class="sections">
+
+        <!-- Left Section: Navigation -->
+        <div class="navigation">
+
+            <h2>Navigation</h2>
+            
+
+<p>
+    <a href="work.html" title="View my work experience">
+        Work Experience
+    </a>
+</p>
+
+<p>
+    <a href="education.html" title="View my education">
+        Education
+    </a>
+</p>
+
+<p>
+    <a href="skills.html" title="View my awards and skills">
+        Awards and Skills
+    </a>
+</p>
+
+<!-- Navigation links to portfolio pages -->
+
+<!-- Links to CSS demonstration pages -->
+
+<p>
+    <a href="inline.html" title="View inline CSS page">
+        Inline CSS
+    </a>
+</p>
+
+<p>
+    <a href="internal.html" title="View internal CSS page">
+        Internal CSS
+    </a>
+</p>
+
+<p>
+    <a href="index.html" title="View external CSS page">
+        External CSS
+    </a>
+</p>
+        </div>
+
+        <!-- Middle Section: About Me -->
+        <div class="about">
+
+            <h2>About Me</h2>
+            <p>I am currently studying Informatics
+            at the University at Albany.</p>
+
+            <p>I have experience working in
+            healthcare and patient services.</p>
+
+        </div>
+
+        <!-- Right Section: My Goals -->
+        <div class="goals">
+
+            <h2>My Goals</h2>
+
+            <p>My goal is to continue growing
+            professionally in healthcare
+            and information technology.</p>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Contact Information -->
+<div class="contact">
+
+    <h2>Contact Me</h2>
+
+    <p>
+        <a href="mailto:Cgaboton@albany.edu">
+            Send Me an Email
+        </a>
+    </p>
+
+</div>
+
+<!-- Annual Salary Calculator -->
+<div class="calculator">
+    <h2>Annual Salary Calculator</h2>
+
+    <p>Enter your hourly wage and hours worked
+    per week to calculate your yearly salary.</p>
+
+    <label for="hourlyWage">Hourly Wage:</label>
+    <input type="number" id="hourlyWage" step="any">
+
+    <br><br>
+
+    <label for="hours">Hours Per Week:</label>
+    <input type="number" id="hours" step="any">
+
+    <br><br>
+
+    <button onclick="calculateSalary()">
+        Calculate Salary
+    </button>
+
+    <p id="salaryResult">Your salary = </p>
+</div>
+
+<script src="calculator.js"></script>
+
+</body>
+
+</html>
