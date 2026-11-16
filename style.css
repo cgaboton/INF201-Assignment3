@@ -77,3 +77,25 @@ a:hover {
 a:active {
     color: #c0392b;
 }
+
+/* Responsive Design for Mobile Devices */
+@media only screen and (max-width: 575px) {
+
+    .sections {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navigation,
+    .about,
+    .goals {
+        float: none;
+        width: 90%;
+        margin: 10px auto;
+        box-sizing: border-box;
+    }
+
+    .navigation {
+        height: auto;
+    }
+}
